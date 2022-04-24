@@ -1,0 +1,270 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,300;0,600;1,200&family=Source+Sans+Pro:wght@600&display=swap');
+
+* {
+    padding: 0%;
+    margin: 0%;
+    font-family: 'Raleway', sans-serif;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+::-webkit-scrollbar {
+    width: 5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #888;
+    border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
+
+.icon {
+    position: relative;
+    top: 3px;
+}
+
+.search {
+    position: relative;
+    left: -39px;
+    font-size: 35px;
+    cursor: pointer;
+}
+
+.search:hover {
+    position: relative;
+    top: -1px;
+}
+
+.front_picture {
+    background-image: url("./../pictures/3.jpg");
+    /* The image used */
+    background-color: #cccccc;
+    /* Used if the image is unavailable */
+    height: 450px;
+    /* You must set a specified height */
+    background-position: center;
+    /* Center the image */
+    background-repeat: no-repeat;
+    /* Do not repeat the image */
+    background-size: cover;
+    background-attachment: fixed;
+    padding-left: 50px;
+}
+
+.front_form {
+    width: 300px;
+    background: rgb(255, 255, 255);
+    background: radial-gradient(circle, rgba(255, 255, 255, 0.35898109243697474) 0%, rgba(255, 255, 255, 0.28335084033613445) 100%);
+    box-shadow: -2px -2px 15px black;
+}
+
+.input_width {
+    width: 139px;
+}
+
+.box_pro {
+    width: 250px;
+    height: 215px;
+    border: 1px solid rgb(219, 219, 219);
+}
+
+.box_agent {
+    width: 250px;
+    height: 240px;
+    border: 1px solid rgb(219, 219, 219);
+}
+
+.box_img {
+    background-image: url("https://time-tips.com/wp-content/uploads/2022/03/images-36-3.jpeg");
+    /* The image used */
+    background-color: #e6e6e6;
+    /* Used if the image is unavailable */
+    height: 140px;
+    /* You must set a specified height */
+    background-position: center;
+    /* Center the image */
+    background-repeat: no-repeat;
+    /* Do not repeat the image */
+    background-size: cover;
+}
+
+.box_img_agent {
+    background-image: url("http://www.salesforce.com/content/dam/blogs/legacy/2014/09/6a00e54ee3905b883301b8d05e560f970.jpg");
+    /* The image used */
+    background-color: #e6e6e6;
+    /* Used if the image is unavailable */
+    height: 140px;
+    /* You must set a specified height */
+    background-position: center;
+    /* Center the image */
+    background-repeat: no-repeat;
+    /* Do not repeat the image */
+    background-size: cover;
+}
+
+.bed_icon {
+    position: relative;
+    top: 2px;
+}
+
+.main_img {
+    background-image: url("https://images8.alphacoders.com/408/thumb-1920-408151.jpg");
+    /* The image used */
+    background-color: #cccccc;
+    /* Used if the image is unavailable */
+    height: 300px;
+    /* You must set a specified height */
+    background-position: center;
+    /* Center the image */
+    background-repeat: no-repeat;
+    /* Do not repeat the image */
+    background-size: cover;
+    background-attachment: fixed;
+    /* filter: blur(2px); */
+}
+
+.contact_us_btn {
+    background-color: transparent;
+    border: 3px solid white;
+    color: white;
+}
+
+.contact_us_btn:hover {
+    background-color: white;
+    border: 2px solid rgb(0, 0, 0);
+    color: black;
+    box-shadow: 2px 2px 20px white;
+    position: relative;
+    top: -2px;
+}
+
+.fornt_tex {
+    color: rgb(0, 0, 0);
+    text-shadow: 5px 5px 30px #ffffff;
+}
+
+.head_bar {
+    width: 290px;
+    height: 50px;
+}
+
+.head_bar button {
+    font-size: 13px;
+}
+
+.logo {
+    width: 170px;
+    height: 60px;
+}
+
+.header_btn {
+    margin-right: 50px;
+    height: 60px;
+}
+
+.top_text {
+    font-size: 15px;
+}
+
+.text_area {
+    width: 300px;
+    height: 100px;
+}
+
+@media screen and (max-width: 480px) {
+    .head_bar {
+        width: 200px;
+        height: 30px;
+        padding-bottom: 20px;
+    }
+
+    .logo {
+        width: 100px;
+        height: 30px;
+    }
+
+    .head_bar button {
+        font-size: 7px;
+    }
+
+    .front_picture {
+        padding-left: 0px;
+    }
+
+    .front_form {
+        width: 310px;
+        height: 360px;
+    }
+
+    .input_width {
+        width: 109px;
+    }
+
+    .header_btn {
+        margin-left: 0px;
+        height: 30px;
+    }
+
+    .top_text {
+        font-size: 8px;
+    }
+    .text_area {
+        width: 280px;
+        height: 60px;
+    }
+}
+
+
+@media screen and (max-width: 330px) {
+    .head_bar {
+        width: 190px;
+        height: 20px;
+        padding-bottom: 15px;
+    }
+
+    .logo {
+        width: 80px;
+        height: 20px;
+    }
+
+    .head_bar button {
+        font-size: 7px;
+    }
+
+    .front_picture {
+        padding-left: 0px;
+    }
+
+    .front_form {
+        width: 300px;
+        background: rgb(255, 255, 255);
+        background: radial-gradient(circle, rgba(255, 255, 255, 0.35898109243697474) 0%, rgba(255, 255, 255, 0.28335084033613445) 100%);
+        box-shadow: -2px -2px 15px black;
+    }
+
+    .header_btn {
+        margin-left: 0px;
+        height: 30px;
+    }
+
+    .top_text {
+        font-size: 8px;
+    }
+
+    .input_width {
+        width: 89px;
+    }
+    .text_area {
+        width: 240px;
+        height: 60px;
+    }
+}
